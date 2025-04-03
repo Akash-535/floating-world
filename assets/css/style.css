@@ -12,15 +12,15 @@ body {
 .continue-slider {
   display: inline-flex;
   width: auto;
-  animation: slide-left 20s linear infinite;
+  animation: slide-left 10s linear infinite;
 }
 
 @keyframes slide-left {
   0% {
-    transform: translateX(75%);
+    transform: translateX(0%);
   }
   100% {
-    transform: translateX(-75%);
+    transform: translateX(-114%);
   }
 }
 
